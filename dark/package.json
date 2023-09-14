@@ -1,6 +1,6 @@
 {
-  "name": "flexy",
-  "version": "2.0.0",
+  "name": "anteres",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -27,12 +27,15 @@
     "angular-feather": "^6.5.0",
     "angular-tabler-icons": "^2.7.0",
     "apexcharts": "^3.40.0",
+    "cors": "2.8.5",
     "date-fns": "^2.29.3",
+    "express": "4.17.1",
+    "mysql": "2.17.1",
     "ng-apexcharts": "^1.7.6",
     "ng2-search-filter": "^0.5.1",
     "ngx-pagination": "^6.0.1",
-    "ngx-scrollbar": "^11.0.0",
     "ngx-permissions": "^13.0.1",
+    "ngx-scrollbar": "^11.0.0",
     "rxjs": "~7.5.0",
     "sass": "^1.57.1",
     "tslib": "^2.3.0",
@@ -51,5 +54,9 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "typescript": "~5.0.4"
-  }
+  },
+  "description": "Modernize Angular Admin Dashboard",
+  "main": "index.js",
+  "author": "Tinotenda Chingaira",
+  "license": "ISC"
 }
