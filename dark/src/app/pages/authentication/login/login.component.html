@@ -41,15 +41,7 @@
         <div class="row justify-content-center w-100">
           <div class="col-lg-9 max-width-form">
             <h4 class="f-w-700 f-s-24 m-0">Welcome to Anteres</h4>
-            <span class="d-block f-w-500 d-block m-t-10"
-              >New to Flexy?
-              <a
-                [routerLink]="['/authentication/register']"
-                class="text-decoration-none text-accent f-w-500 f-s-14"
-              >
-                Create an account</a
-              >
-            </span>
+           
 
             <form class="m-t-30" [formGroup]="form" (ngSubmit)="submit()">
               <mat-form-field
@@ -123,37 +115,7 @@
               <!-- input -->
             </form>
 
-            <div class="or-border m-t-30">or sign in with</div>
-
-            <div class="row m-t-24">
-              <div class="col-12 m-b-24">
-                <button mat-stroked-button class="w-100">
-                  <div class="d-flex align-items-center gap-6">
-                    <i-feather name="github" class="icon-18"></i-feather>
-                    Github
-                  </div>
-                </button>
-              </div>
-              <div class="col-12 col-sm-6">
-                <button mat-stroked-button class="w-100">
-                  <div class="d-flex align-items-center gap-6">
-                    <i-feather name="facebook" class="icon-18 text-primary"></i-feather>
-                    Facebook
-                  </div>
-                </button>
-              </div>
-              <div class="col-12 col-sm-6">
-                <button
-                  mat-stroked-button
-                  class="w-100 d-flex align-items-center"
-                >
-                  <div class="d-flex align-items-center gap-6">
-                    <i-feather name="twitter" class="icon-18 text-accent"></i-feather>
-                    Twitter
-                  </div>
-                </button>
-              </div>
-            </div>
+         
           </div>
         </div>
       </div>
