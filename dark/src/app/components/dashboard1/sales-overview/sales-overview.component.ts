@@ -45,12 +45,22 @@ export class AppSalesOverviewComponent {
     this.SalesChartOption = {
       series: [
         {
-          name: 'Ample Admin',
+          name: 'Store 1',
           data: [355, 390, 300, 350, 390, 180],
           color: '#fb9678',
         },
         {
-          name: 'Pixel Admin',
+          name: 'Store 2',
+          data: [280, 250, 325, 215, 250, 310],
+          color: '#03c9d7',
+        },
+        {
+          name: 'Store 3',
+          data: [280, 250, 325, 215, 250, 310],
+          color: '#03c9d7',
+        },
+        {
+          name: 'Store 4',
           data: [280, 250, 325, 215, 250, 310],
           color: '#03c9d7',
         },

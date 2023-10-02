@@ -132,9 +132,18 @@
                 let index = index
               "
             >
-              <td class="p-16">
-                {{ index + 1 }}
-              </td>
+            <td class="p-16">
+              {{ index + 1 }}
+            </td>  
+            <td class="p-16">
+              <button
+            mat-raised-button
+            color="primary"
+            
+          >
+            Scan Item
+          </button>
+            </td>
 
               <td class="p-16">
                 <mat-form-field appearance="outline" class="w-100 hide-hint">
@@ -218,7 +227,7 @@
         </button>
 
         <h5 class="m-b-5 f-w-600 f-s-16">Sub total: {{ subTotal }}</h5>
-        <h5 class="f-w-600 f-s-16">Total Vat: {{ vat }}%</h5>
+        <h5 class="f-w-600 f-s-16">Total Vat @15%: {{ vat }}</h5>
         <mat-divider></mat-divider>
         <h3 class="m-b-0 p-t-20 f-s-18">Grand Total: {{ grandTotal }}</h3>
       </div>

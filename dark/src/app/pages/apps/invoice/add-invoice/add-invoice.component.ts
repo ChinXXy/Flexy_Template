@@ -56,7 +56,7 @@ export class AppAddInvoiceComponent {
       this.addForm.get('rows')?.value[rowIndex].units;
 
     this.subTotal = this.subTotal - totalCostOfItem;
-    this.vat = this.subTotal / 10;
+    this.vat = this.subTotal *0.15;
     this.grandTotal = this.subTotal + this.vat;
     this.rows.removeAt(rowIndex);
   }
